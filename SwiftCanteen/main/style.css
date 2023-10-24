@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    
+    border: 2px solid #ccc;
+    
+}
+
+
+
+
+.main-image {
+    width: 25vw;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #787272;
+}
+
+
+.main-text {
+    padding: 10px;
+}
+
+.main-text h5 {
+    font-size: 24px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    /* Add bold text for the name */
+    color: #333;
+    /* Set the text color */
+    margin-right: 20px;
+    /* Add spacing between the name and image */
+}
+
+/* Style the description */
+.main-text p {
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    color: #666;
+    /* Set the text color */
+}
+
+/* Style the "Add" button */
+.add-button {
+    background-color: #4CAF50; /* Background color */
+    color: #fff; /* Text color */
+    padding: 5px 10px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add a pointer cursor */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth hover effect */
+  
+    /* Center text vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Hover effect */
+  .add-button:hover {
+    background-color: #45a049; /* Slightly darker color on hover */
+  }
+  
+
+
+
+.recom-head {
+    font-size: 24px; /* Adjust the font size */
+    font-weight: bold; /* Use a bold font weight */
+    color: #555; /* Set the text color */
+    margin: 20px;
+    margin-bottom: 0;
+  }
+  
+  .main-card-food-items{
+    padding: 10px;
+  }
+  
